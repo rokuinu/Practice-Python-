@@ -1,0 +1,13 @@
+weight = float(input("体重を入力>"))
+height = float(input("身長を入力>"))
+BMI = weight / height **2
+print(BMI)
+
+if BMI > 30:
+  print("ガチデブ")
+elif BMI > 25 and BMI < 30:
+  print("デブ")
+elif BMI > 18.5 and BMI < 25:
+  print("普通")
+else:
+  print("ガリガリ")
